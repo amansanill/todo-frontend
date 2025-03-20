@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://13.201.80.140:5000"; // Change to your backend URL
+const API_URL = process.env.REACT_APP_API_URL || "https://13.201.80.140:5000"; // Change to your backend URL
 
 function App() {
   const [todos, setTodos] = useState([]);
